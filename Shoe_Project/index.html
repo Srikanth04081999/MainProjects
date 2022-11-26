@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Project</title>
+</head>
+<body>
+    <div></div>
+    <img src="./images/shoe.png" alt="">
+</body>
+</html>
+
+<style>
+    *{
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        animation: back-color 5s infinite alternate-reverse;
+    }
+    div{
+        height: 460px;
+        width: 460px;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        /* background:linear-gradient(rgb(186, 108, 95),  royalblue, rgb(145, 156, 148), #b692d0  );      */
+        border-radius: 50%;
+        position:absolute;
+        justify-self: center;
+        z-index: -1;
+        animation: rotate infinite;
+        animation-duration: 4s;
+        animation-timing-function: ease-in;
+    }
+
+    img{
+        height: 70vh;
+        /* animation: floating 2s infinite ease-in-out; */
+        animation: falling 5s ease-in-out;
+        
+    }
+
+    @keyframes rotate {
+
+       
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+       
+    }
+
+    @keyframes floating{
+
+        0%{
+            transform: translateY(20px);
+        }
+        50%{
+            transform: translateY(-20px);
+        }
+        100%{
+            transform: translateY(20px);
+        }
+    }
+
+    @keyframes back-color{
+        0%{
+            background: #212121;;
+        }
+        100%{
+            background: white;
+        }
+    }
+    @keyframes falling{
+        0%{
+            transform: translateY(-500%);
+        }
+        40%{
+            transform: translateY(0%);
+        }
+        60%{
+            transform: translateY(-20%);
+
+        }
+        
+        80%{
+            transform: translateY(0%);
+
+        }
+        100%{
+            transform: translateY(-20%);
+
+        }
+    }
+
+</style>

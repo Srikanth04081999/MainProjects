@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    height: 100vh;
+    background: #04695c;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 15vh;
+    width: 95%;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-around;
+}
+header ul li{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+header img{
+    height: 2rem;
+}
+
+main{
+    height: 85vh;
+    display: flex;
+}
+/* ---------------------------------------------- */
+main .left{
+    
+    width: 35%;
+}
+main .left{
+    display: grid;
+    grid-template-rows: 80% auto;
+}
+main .left .top{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .left .top h1{
+    font-size: 4rem;
+    margin-left: 4rem ;
+}
+main .left .top p{
+    writing-mode: vertical-lr;
+    font-size: 1.4rem;
+}
+/* ------------------------------------------- */
+main .left .bottom{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+main .left .bottom p{
+    font-size: 1rem;
+}
+main .left .bottom h3{
+    font-size: 2rem;
+}
+.limited{
+    background: black;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    writing-mode: vertical-lr;
+    top: -30%;
+}
+/* ------------------------------------------ */
+main .right {
+    display: grid;
+    grid-template-rows: 80% auto;
+    width: 65%;
+}
+
+main .right .top{
+    display: flex;
+    align-items: center;
+}
+main .right .top img{
+    height: 38rem;
+    border-radius: 25%;
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+
+
+main .right .top .b{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+}
+
+main .right .top .b h2{
+
+    list-style: none;
+    line-height: 3rem;
+    font-size: 4rem;
+}
+
+main .right .bottom p{
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+

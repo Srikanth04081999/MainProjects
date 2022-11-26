@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/*---------------------------------------------SIDE SECTION------------------------------------------------------*/
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: 1rem;
+    }
+    header ul li{
+        margin-right: 1rem;
+        font-size: 1.7rem;
+        font-weight: 100;
+        
+    }
+    
+    header img{
+    
+        height: 2.5rem;
+    }
+.side{
+    padding-top: 10rem;
+    padding-left: 7rem;
+}
+.side ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0rem;
+    gap: 0rem;
+    
+
+}
+.side ul li{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+.side img{
+    height: 5rem;
+    pointer-events: none;
+
+}
+/* ---------------------------------------------TIDE SECTION------------------------------------------------------*/
+
+
+.tide{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.tide .class {
+
+    padding-left: 25rem;
+}
+
+.class img{
+    height: 17rem;
+}
+
+.key{
+    display: flex;
+    width: 55%; 
+    border: 3px solid orange;   
+    border-radius: 1rem; 
+    padding: 0.1rem;
+    height: 3.5rem;
+}
+
+.key img{
+    height: 2.7rem;
+    margin-top: 0rem;
+    margin-right: 1rem;
+    border-radius: 10rem;
+
+    
+}
+
+.key input{
+    padding-left: 1rem;
+    width: 100%;
+    border: none; 
+    margin-left: 1rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    outline-style: none; 
+
+}
+
+.key h1{
+    padding-top: 0.6rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+   
+}
+
+
+
+
+
+/* --------------------------------------------------------SECTION ONE-------------------------------------------- */
+
+.one{
+    padding-top: 10rem;
+}
+.one ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem ;
+}
+
+.one span{
+    margin-left: 1rem;
+}
+
+.one img{
+    height: 2rem;
+    margin-left: 2rem;
+}
+/*----------------------------------------------------------SECTION TWO-------------------------------------------- */
+.two ul{
+    display: flex;
+    padding-top: 5rem;
+    list-style: none;
+    justify-content: center;    
+}
+
+.two ul li{
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: lightgray;
+}

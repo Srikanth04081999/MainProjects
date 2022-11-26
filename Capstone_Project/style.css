@@ -1,0 +1,2997 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/*--------------------------------------------------HEADER---------------------------------------------------------*/
+
+
+header{
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    gap: 3rem;
+    padding: 0.5rem;
+     
+}
+
+header .head ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: royalblue;
+    cursor: pointer;
+    width: 20%;
+    gap: 0.5rem;
+}
+
+.head ul img{
+    height: 1.3rem;
+    pointer-events: none;
+
+}
+
+.search{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-right: 2rem;
+    height: 1.7rem;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color:aliceblue;
+    border: none;
+
+}
+
+.search img{
+    height: 1.3rem;
+    padding-left:8rem;
+    margin-top: 0.2rem;
+    
+}
+
+.search input{
+    border: none;
+    background-color: aliceblue;
+    outline-style: none;
+    width: 100%;
+
+
+}
+ .home ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding-left: 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    justify-self: center;
+   
+
+} 
+
+.home ul li:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    color: #F7B743;
+}
+
+.one .left{
+    padding: 1rem;
+
+}
+
+.one .left span{
+
+    font-size: 0.7rem;
+    background-color:#F1A4A9;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    
+
+}
+
+
+.one .left h3{
+
+    font-size: 1.2rem;
+    color: royalblue;
+    padding-top:0.7rem;
+}
+
+.one.left h1{
+
+    font-size: 1.5rem;
+    color: #F7B743;
+}
+
+.left p{
+
+    font-size: 0.7rem;
+    padding-top: 0.3rem;
+}
+
+.one .left ul{
+
+    display: flex;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    list-style: none;
+}
+
+.one .left img{
+
+    height: 2rem;
+    pointer-events: none;
+}
+
+.one .left h4{
+
+    font-size: 0.6rem;
+    font-weight: 300;
+    padding-top: 0.4rem;
+}
+
+.one .left button{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-top: 1rem ;
+    border-radius: 0.7rem;
+    background-color:#F1A4A9;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 0.5rem; 
+} 
+
+.one .right img{
+
+    height: 18vh;
+    margin: 2rem 1rem 1rem 2rem;
+    cursor: pointer;
+    pointer-events: none;
+
+}
+
+.one .right{
+    width: 55%;
+    height: 25vh;
+    border: 1px solid black;
+    margin: 2rem 5rem 2rem 5rem; 
+    border-radius: 100%;
+    background-color:#F1A4A9;
+    border: none;
+  
+}
+
+/*----------------------------------------------------SECTION TWO------------------------------------------------- */
+
+
+.two{
+   
+    padding: 3rem 0rem 2rem 0rem;
+
+}
+
+
+.two .top{
+
+    display: flex;
+    height: 13vh;
+    background-color:#F1A4A9;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin: 0.7rem;
+
+}
+
+.two .top .class1{
+
+    font-size: 0.5rem;
+    font-weight: 600;
+    padding: 2rem 0rem 1rem 0.5rem;
+    color:royalblue;
+
+}
+
+.two .top .class3{
+    
+
+    border: 1px solid black ;
+    margin-top: 1rem;
+    margin-bottom:1rem; 
+    border-radius: 0.5rem;
+    background-color: white;
+    border: none;
+
+}
+.top .class3 img{
+   
+padding-top: 0rem;
+padding-bottom: 5rem;
+height: 20vh;
+
+}
+
+/*-------------------------------------------------------SECTION THREE---------------------------------------------*/
+.three{
+    display: flex;
+    height: 13vh;
+    background-color:#F1A4A9;
+    gap: 2rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+
+}
+
+.three .class5{
+    padding-top: 2rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: royalblue;
+}
+
+.three .class4 img{
+    height: 12vh;
+}  
+
+/*------------------------------------------------SECTION FOUR---------------------------------------------------- */
+.four{
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+}
+.four .right{
+    width: 90%; 
+    display: flex;
+    background-color:#F1A4A9;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin-bottom: 2rem ;
+}
+
+.four .right .width{
+
+    padding: 1rem;
+
+}
+
+.four .right .width span{
+
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #6EC1E4;
+
+}
+
+.four .right .width h2{
+
+    font-size: 0.8rem;
+    color:royalblue;
+
+}
+
+.four .right .width h1{
+
+font-size: 0.9rem;
+font-weight: 400;
+}
+
+.four .width h3{
+
+    font-size: 0.6rem;
+}
+.four .right .height img{
+
+    padding-left: 4rem;
+    /* padding-top: 1rem; */
+    margin-top: 1rem;
+    height: 12vh;
+
+}
+
+/*------------------------------------------SECTION FIVE------------------------------------------*/
+
+.five{
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 0.6rem;
+    background-color:#F1A4A9;
+    border-radius: 2rem;
+
+    
+
+}
+
+.five .right{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "I1 I2 I2"
+    "I1 I2 I2" 
+    "I3 I3 I5"
+    "I3 I3 I5" 
+    "I6 I6 I4";
+    padding-bottom: 0rem 0rem 2rem 0rem;
+}
+
+ .right img{
+    height: 7rem;
+} 
+.right .chair1{
+    grid-area: I1;
+    border: 1px solid black;
+    height: 7rem;
+    width: 80%;
+    padding-left: 0rem;
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 0.7rem ;
+}
+.right .chair2{
+    grid-area: I2;
+    border: 1px solid black;
+    height: 7rem;
+    width: 80%; 
+    padding-left: 0rem;
+    margin-left: 1rem;
+    background-color: white;
+    border-radius: 1rem ;
+}
+.right .chair3{
+    grid-area: I3;
+    border: 1px solid black;
+    height: 7rem;
+    width: 70%;
+    padding-left: 0rem;
+    margin-left: 2rem;
+    border-radius: 1rem ;
+    background-color: white;
+
+}
+.right .chair4{
+    grid-area: I4;
+    border: 1px solid black;
+    height: 7rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 1rem ;
+
+
+}
+
+.right .chair5{
+    grid-area: I5;
+    border: 1px solid black;
+    height: 7rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 1rem ;
+}
+
+.right .chair6{
+    grid-area: I6;
+    border: 1px solid black;
+    height: 7rem;
+    margin-left: 3rem;
+    width: 70%;
+    padding-left: 1rem;
+    border-radius: 1rem ;
+    background-color: white;
+}
+
+.left{
+    padding: 0rem 0rem 0rem 0rem;
+}
+.five.left h1{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 5rem;
+    width: 100%;
+}
+.left h1 span{
+    color: royalblue;
+}
+
+.five.left p{
+    font-size: 1rem;
+    margin: 2rem 10rem 2rem 1rem;
+}
+
+.five .left img{
+    height: 1.2rem;
+}
+
+.left ul{
+    list-style: none;
+    
+}
+.left ul li{
+    display: flex;
+    padding: 1rem 1rem 1rem 2rem;
+    gap: 0.8rem;
+    
+}
+.left ul li h3{
+    font-size: 0.9rem;
+}
+
+.five .left button{
+
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 7rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    color: black;
+}
+/*---------------------------------------------SECTION SIX ----------------------------------------------------*/
+.six{
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.six h1{
+
+    font-size: 1.5rem;
+    color: royalblue;
+}
+.six h1 span{
+
+    color: orange;
+}
+.six p{
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.six ul{
+   display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding-left: 4rem;
+    padding-bottom: 3rem;
+    font-size: 0.9rem;
+}
+
+.six .under{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+.six .under1 .pic1{
+
+    height: 5rem;
+    padding-left: 0rem;
+    width: 60%;
+    background-color:#F1A4A9;
+    border-radius: 0.5rem;
+}
+
+.six .under1  .pic2{
+
+    height: 2rem;
+}
+
+.under1 h2{
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.under1 h3{
+     font-size: 0.7rem;
+     color: royalblue;
+}
+
+.under1 span{
+     color: #20AD96;
+     padding-left: 0.2rem;
+     font-size: 0.4rem;
+     font-weight: 600;
+}
+
+/*---------------------------------------SECTION SEVEN-------------------------------------------------- */
+
+.seven {
+    display: flex;
+    background-color:#F1A4A9;
+    height: 15vh;
+    width: 95%;
+    margin-left: 0.5rem;
+    border-radius: 1rem;
+    
+}
+.seven .down{
+    width: 50%;
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.seven .down h1{
+
+    font-size: 1.3rem;
+    color: royalblue;
+
+}
+
+.seven .down h2{
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.seven .down button{
+
+height: 1.3rem;
+width: 4rem;
+font-size: 0.5rem;
+font-weight: 600;
+background-color: aliceblue;
+color: black;
+border: none;
+border-radius: 0.5rem;
+cursor: pointer;
+
+}
+
+.seven .up img{
+
+    height: 25vh;
+    width: 70%;
+    margin-left: 3rem;
+    padding-bottom: 6rem;
+}
+
+/*------------------------------------------------SECTION EIGHT-------------------------------------*/
+.eight{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    border: none;
+    background-color:#F1A4A9;
+    width: 95%;
+    margin: 3rem 0rem 3rem 0.5rem;
+
+}
+
+.eight h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+} 
+
+.eight h1 span{
+
+    color:royalblue;
+}
+.eight h3{
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.eight .pro1{
+
+    border: 1px solid lightgray;
+    border-radius: 0.4rem;
+    background-color: white;
+    height: 9vh;
+}
+
+.pros .enb{
+    height: 1.5rem;
+}  
+
+.pros{
+    display: flex;
+    gap: 0.1rem;
+
+}
+.pros .ena{
+    height: 1.5rem;
+}
+
+
+
+.eight .pros ul li{
+    font-size: 0.4rem;
+    list-style: none;
+    font-weight: 600;
+   
+}
+
+.dev1{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    
+    width: 100%;
+
+}
+
+.dev2{
+    display: flex;
+    gap: 0.5rem;
+    width: 80%;
+    padding-left: 6rem;
+}
+
+/*----------------------------------------------SECTION NINE----------------------------- */
+
+
+.nine{
+    padding-bottom: 5rem;
+    /* padding-left: 0rem;
+    padding-right: 0rem; */
+}
+.nine h1{
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: royalblue;
+}
+
+.nine .light{
+    padding: 1rem 4rem 0rem 4rem ;
+     
+}
+
+.nine .light h3{
+    padding: 0rem 1rem 1rem 3rem;
+    font-size: 0.6rem;
+}
+
+.nine .lights img{
+    height: 17vh;
+    width: 70%;
+    margin-left: 2.5rem;
+}
+
+.nine .lights{
+    width: 100%;
+    background-color:#F1A4A9;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+
+}
+
+.dark{
+    display: flex;
+    gap: 0.5rem;
+    background-color:#F1A4A9;
+    margin: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+
+}
+
+.dark .sec img{
+
+    height: 7vh;
+    /* width: 100%; */
+}
+
+.dark .sec{
+    background-color: white;
+    margin: 2rem 0rem 2rem 0rem;
+    border-radius: 0.5rem;
+}
+
+.dark h2{
+    padding: 2rem 0rem 1rem 1rem;
+    font-size: 0.8rem;
+    color:royalblue;
+
+}
+/*----------------------------------------------SECTION TEN */
+
+.ten .classA iframe{
+    height: 50vh;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.ten .classA{
+    padding: 0rem 1rem 2rem 1rem;
+}
+
+
+
+.ten .classB{
+
+    
+    padding: 2rem 0rem 16rem 1rem;
+    margin-top: 5rem;
+    background-color: #F1A4A9;
+}
+
+.classB .furn{
+
+    /* width: 90%; */
+}
+
+.classB .furn ul{
+
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    color: #6EC1E4;
+
+}
+
+.classB .furn img{
+    height: 1.2rem;
+    padding-left: 0rem;
+
+}
+
+.classB .furn p{
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.classB .text{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 1rem;
+    width: 55%;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    padding-left: 1rem;
+    border: none;
+
+}
+.classB .text input{
+    padding-left: 0rem;
+    background-color: aliceblue;
+    border: none;
+    outline-style: none;
+}
+
+
+.classB .cat h1{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.classB .cat ul {
+    display: flex;
+    padding: 0.8rem 0rem 0rem 2.3rem;
+    list-style: none;
+    font-size: 0.7rem;
+
+    gap: 2rem;
+}
+/*--------------------------------------------SECTION ELEVEN------------------------------*/
+
+.eleven{ 
+    padding-bottom: 1rem;
+} 
+.eleven .left{
+    /* width: 50%; */
+    display: flex;
+    padding-left: 0rem;
+}
+.eleven .left .side1 img{
+    height: 5rem;
+    background-color:cornsilk;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+}
+.eleven .left .side1{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 1rem;
+    gap: 1rem;  
+}
+
+.eleven .left .side img{
+     padding:5rem 1rem 1rem 2rem; 
+    height: 38vh;
+    width: 100%;
+}
+
+.eleven .right{
+    padding: 1rem;
+    /* width: 45%; */
+    
+}
+.eleven .right h1{
+    font-size: 1.4rem;
+    color: #7E7E7E;
+}
+.eleven .right p{
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.eleven .right del{
+    font-size: 0.7rem;
+    padding-top: 1rem;
+
+}
+.eleven .right span{
+    font-size: 1rem;
+    padding-left: 0.1rem;
+    color: royalblue;
+    font-weight: 600;
+    padding-top: 2rem;
+
+}
+.eleven .right ul{
+    display: flex;
+    list-style: none;
+    padding-top: 1rem;
+    font-size: 0.5rem;
+    gap: 0.7rem;
+}
+
+.eleven .right img{
+
+    height: 2rem;
+    
+}
+
+.eleven .model ul {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.eleven .model ul li h2{
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem 0rem 1rem;
+    color: #7E7E7E;
+
+}
+.eleven .model ul li h2 span{
+
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-left: 1rem;
+
+}
+
+.eleven .about {
+
+     padding: 1.2rem; 
+    /* width: 50%; */
+}
+
+.eleven .about h1{
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #7E7E7E;
+}
+.eleven .about li {
+    padding-bottom: 0.5rem;
+    font-size: 0.7rem;
+}
+/*-----------------------------------------------------------SECTION TWELVE---------------------------------------*/
+
+.table1{
+    /* display: flex; */
+}
+.twelve h1{
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.twelve .table2{
+    /* width: 50%; */
+    /* height: 100vh; */
+   
+}
+
+.twelve .table2 table{
+    width: 30%;
+}
+
+
+.twelve .table2 table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    /* height: 3px; */
+  }
+
+  .twelve .table3{
+    /* width: 50%; */
+}
+
+.twelve .table3 table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 2rem;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+/*----------------------------------------------SECTION THIRTEEN--------------------------------------------------------------*/
+
+
+  .thirteen {
+    padding: 3rem 1rem 1rem 1rem; 
+
+}
+.thirteen h1{
+
+font-size: 1.2rem;
+font-weight: 500;
+
+}
+
+.thirteen .products {
+display: grid;
+/* grid-template-columns: repeat(2,1fr); */
+grid-template-columns: 68% 75%;
+gap: 0rem;
+padding: 1rem 5rem 1rem 0rem; 
+
+}
+.thirteen .product img{
+
+height: 8rem;
+width: 70%;
+padding: 0rem 0rem 0rem 0rem;
+background-color:#F1A4A9;
+border-radius: 1rem;
+/* margin-right: 3rem; */
+margin-top: 2rem;
+}
+
+.thirteen .product h2{
+margin: 1rem 1rem 0rem 0.5rem;
+width: 65%;
+font-size: 0.7rem;
+font-weight: 400;
+}
+
+.thirteen .product button{
+
+ margin: 0.5rem 0rem 0rem 2rem;
+padding: 0.5rem; 
+font-size: 0.7rem;
+font-weight: 600;
+background-color: royalblue;
+border: none;
+border-radius: 0.4rem;
+color: white;
+
+}
+
+/*----------------------------------------------SECTION FOURTEEN----------------------------------------*/
+ .fourteen{
+    text-align: center;
+    padding: 1rem 5rem 3rem 0.5rem;
+}
+.fourteen table, th, td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 1rem;
+    font-size: 0.7rem;
+}
+.fourteen table img{
+    height: 3rem;
+}
+
+/*----------------------------------------------SECTION FIFTEEN--------------------*/
+
+.fifteen{
+    display: flex;
+    gap: 0.5rem;
+    padding: 5rem 0.5rem 15rem 0.5rem;
+    /* width: 70%; */
+}
+
+.fifteen .rev1 h1{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:#6EC1E4;
+}
+
+.fifteen .rev1 .img1{
+    height: 2.5rem;
+    padding-left: 0.5rem;
+
+}
+.fifteen .rev1 p{
+    font-size: 0.5rem;
+    padding-left: 0rem;
+    width: 20%;
+
+}
+
+.fifteen .rev1 .img2{
+    height: 8rem;
+    width: 70%;
+    margin-left: 0rem;
+}
+
+.profiles .en1{
+    height: 1.3rem;
+}
+
+
+.profile{
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    background-color:#F1A4A9;
+    border: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 4rem;
+    margin-left: 0rem;
+}
+
+.profiles .en2{
+    margin-left: 0rem;
+    height: 1.4rem;
+}  
+
+.profiles{
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.profiles ul{
+    list-style: none;
+    font-size: 0.4rem;
+    font-weight: 600;
+}
+
+
+/* -------------------------------------------- */
+
+@media (min-width: 720px){
+
+
+    header{
+        display: grid;
+        grid-template-columns: 18rem 18rem;
+         
+    }
+    
+    .search{
+        padding-left: 8rem;
+    }
+
+    .home ul{
+        gap: 4rem;
+        padding-left: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .one .left span{
+        font-size: 0.8rem;
+
+    }
+
+    .one .left h3{
+        font-size: 1.3rem;
+
+    }
+
+    .one.left h1{
+        font-size: 1.5rem;
+
+    }
+    .left p{
+
+        font-size: 0.8rem;
+        padding-top: 0.6rem;
+    }
+    
+    .one .left h4{
+
+        font-size: 0.8rem;
+        font-weight: 300;
+        padding-top: 1.6rem;
+    }
+
+    .one .left img{
+
+        height: 2.5rem;
+    }
+
+    .one .right img{
+
+        height: 30vh;
+        margin: 2rem 1rem 1rem 2rem;
+        cursor: pointer;
+        pointer-events: none;
+    
+    }
+
+    .one .right{
+        width: 40%;
+        height: 40vh;
+        border: 1px solid black;
+        margin: 2rem 5rem 2rem 12rem; 
+        border-radius: 100%;
+        background-color:#F1A4A9;
+        border: none;
+      
+    }
+    
+    /*----------------------------------------------------SECTION TWO------------------------------------------------- */
+
+
+.two{
+   
+    padding: 2rem 3rem 4rem 0rem;
+
+}
+
+.two .top{
+
+    display: flex;
+    height: 17vh;
+    background-color:#F1A4A9;
+    gap: 4rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+
+    
+.two .top .class1{
+
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2rem 0rem 1rem 0.5rem;
+    color:royalblue;
+
+}
+
+.top .class3 img{
+   
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+    height: 25vh;
+    
+    }
+    
+    /*-------------------------------------------------------SECTION THREE---------------------------------------------*/
+.three{
+    display: flex;
+    height: 20vh;
+    background-color:#F1A4A9;
+    gap: 4rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+
+}
+
+.three .class5{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: royalblue;
+}
+
+.three .class4 img{
+    height: 20vh;
+}  
+
+/*------------------------------------------------SECTION FOUR---------------------------------------------------- */
+.four{
+    padding-left: 8rem;
+    padding-bottom: 4rem;
+}
+.four .right{
+    width: 70%; 
+    display: flex;
+    background-color:#F1A4A9;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin-bottom: 2rem ;
+}
+
+.four .right .width{
+
+    padding: 1rem;
+
+}
+
+.four .right .width span{
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6EC1E4;
+
+}
+
+.four .right .width h2{
+
+    font-size: 1.2rem;
+    color:royalblue;
+
+}
+
+.four .right .width h1{
+
+font-size: 1.3rem;
+font-weight: 400;
+}
+
+.four .width h3{
+
+    font-size: 0.8rem;
+}
+.four .right .height img{
+
+    padding-left: 4rem;
+    /* padding-top: 1rem; */
+    margin-top: 1rem;
+    height: 20vh;
+
+}
+
+/*------------------------------------------SECTION FIVE------------------------------------------*/
+
+.five{
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 0rem;
+    background-color:#F1A4A9;
+    border-radius: 1rem;
+
+    
+
+}
+
+.five .right{
+    display: grid;
+    gap: 5px; 
+    padding: 0rem 10rem 2rem 4rem;
+}
+
+
+
+/*---------------------------------------------SECTION SIX ----------------------------------------------------*/
+.six{
+    text-align: center;
+    padding: 2rem 0rem 0rem 0rem;
+}
+.six h1{
+
+    font-size: 2rem;
+    color: royalblue;
+}
+.six h1 span{
+
+    color: orange;
+}
+.six p{
+    font-size: 0.9rem;
+    padding: 1rem 5rem 2rem 1rem;
+}
+
+.six ul{
+   display: flex;
+    list-style: none;
+    gap: 3rem;
+    padding-left: 6rem;
+    padding-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.six .under{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0rem;
+    padding-left: 0rem;
+    padding-bottom: 3rem;
+}
+
+
+.six .under1 .pic1{
+
+    height: 9rem;
+    padding-left: 0rem;
+    width: 50%;
+    background-color:#F1A4A9;
+    border-radius: 0.5rem;
+}
+
+.six .under1  .pic2{
+
+    height: 3.3rem;
+}
+
+.under1 h2{
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.under1 h3{
+     font-size: 1rem;
+     color: royalblue;
+}
+
+.under1 span{
+     color: #20AD96;
+     padding-left: 0.2rem;
+     font-size: 0.7rem;
+     font-weight: 600;
+}
+/*---------------------------------------SECTION SEVEN-------------------------------------------------- */
+
+.seven {
+    display: flex;
+    background-color:#F1A4A9;
+    height: 23vh;
+    width: 89%;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    
+}
+.seven .down{
+    width: 50%;
+    padding: 2rem 1rem 1.5rem 1rem;
+}
+
+.seven .down h1{
+
+    font-size: 1.7rem;
+    color: royalblue;
+
+}
+
+.seven .down h2{
+
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.seven .down button{
+
+height: 2rem;
+width: 7rem;
+font-size: 0.8rem;
+font-weight: 600;
+background-color: aliceblue;
+color: black;
+border: none;
+border-radius: 0.5rem;
+cursor: pointer;
+
+}
+
+.seven .up img{
+
+    height: 36vh;
+    width: 70%;
+    margin-left: 3rem;
+    padding-bottom: 6rem;
+}
+
+/*------------------------------------------------SECTION EIGHT-------------------------------------*/
+.eight{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    border: none;
+    background-color:#F1A4A9;
+    width: 88%;
+    margin: 3rem 1rem 3rem 1rem;
+
+}
+
+.eight h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+} 
+
+.eight h1 span{
+
+    color:royalblue;
+}
+.eight h3{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.eight .pro1{
+
+    border: 1px solid lightgray;
+    border-radius: 0.4rem;
+    background-color: white;
+    height: 10vh;
+}
+
+.pros .enb{
+    height: 1.8rem;
+}  
+
+.pros{
+    display: flex;
+    gap: 0.3rem;
+
+}
+.pros .ena{
+    height: 1.8rem;
+}
+
+
+
+.eight .pros ul li{
+    font-size: 0.6rem;
+    list-style: none;
+    font-weight: 600;
+   
+}
+
+.dev1{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    
+    width: 100%;
+
+}
+
+.dev2{
+    display: flex;
+    gap: 0.5rem;
+    width: 80%;
+    padding-left: 7rem;
+}
+
+/*----------------------------------------------SECTION NINE----------------------------- */
+
+.nine .lights img{
+    height: 40vh;
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.nine .lights{
+    width: 60%;
+    background-color:#F1A4A9;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+}
+
+.nine .light h3{
+    padding: 0rem 1rem 1rem 3rem;
+    font-size: 0.8rem;
+}
+
+.dark{
+    display: flex;
+    gap: 2.5rem;
+    background-color:#F1A4A9;
+    margin: 5rem 4rem 0rem 1.5rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+
+}
+
+.dark .sec img{
+
+    height: 13vh;
+    /* width: 100%; */
+}
+
+.dark h2{
+    padding: 3.5rem 0rem 1rem 1rem;
+    font-size: 1rem;
+    color:royalblue;
+
+}
+
+/*----------------------------------------------SECTION TEN */
+
+.ten .classA iframe{
+    height: 50vh;
+    width: 94%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.classB .furn ul{
+
+    display: flex;
+    list-style: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+    gap: 0.7rem;
+    padding-left: 1rem;
+    color: #6EC1E4;
+
+}
+
+.classB .furn img{
+    height: 1.7rem;
+}
+.classB .furn p{
+    padding: 0.3rem 3rem 1rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.classB .furn img{
+    height: 1.2rem;
+    padding-left: 11rem;
+}
+
+.classB .cat h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.classB .cat ul {
+    display: flex;
+    padding: 0.8rem 0rem 0rem 8rem;
+    list-style: none;
+    font-size: 1rem;
+
+    gap: 2rem;
+}
+
+/*--------------------------------------------SECTION ELEVEN------------------------------*/
+
+.eleven{ 
+    padding-bottom: 1rem;
+} 
+.eleven .left{
+    /* width: 50%; */
+    display: flex;
+    padding-left: 3rem;
+}
+.eleven .left .side1 img{
+    height: 7rem;
+    background-color:cornsilk;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+}
+.eleven .left .side1{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 1rem;
+    gap: 1rem;  
+}
+
+.eleven .left .side img{
+     padding:5rem 1rem 1rem 2rem; 
+    height: 60vh;
+    width: 100%;
+}
+
+.eleven .right{
+    padding: 1rem;
+    /* width: 45%; */
+    
+}
+.eleven .right h1{
+    font-size: 1.4rem;
+    color: #7E7E7E;
+}
+.eleven .right p{
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+.eleven .right del{
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+
+}
+.eleven .right span{
+    font-size: 1.1rem;
+    padding-left: 0.1rem;
+    color: royalblue;
+    font-weight: 600;
+    padding-top: 3rem;
+
+}
+.eleven .right ul{
+    display: flex;
+    list-style: none;
+    padding-top: 3rem;
+    font-size: 0.8rem;
+    gap: 0.8rem;
+}
+
+.eleven .right img{
+
+    height: 2rem;
+    
+}
+
+.eleven .model ul {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.eleven .model ul li h2{
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem 0rem 1rem;
+    color: #7E7E7E;
+
+}
+.eleven .model ul li h2 span{
+
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1rem;
+
+}
+
+.eleven .about {
+
+     padding: 1.2rem; 
+    /* width: 50%; */
+}
+
+.eleven .about h1{
+    padding-bottom: 1.3rem;
+    font-size: 1.3rem;
+    color: #7E7E7E;
+}
+.eleven .about li {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/*----------------------------------------------SECTION THIRTEEN--------------------------------------------------------------*/
+
+
+
+.thirteen .product img{
+
+    height: 12rem;
+    width: 50%;
+    background-color:#F1A4A9;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    }
+
+    .thirteen .product h2{
+        margin: 1rem 0rem 0rem 2.6rem;
+        width: 55%;
+        font-size: 0.8rem;
+        font-weight: 400;
+        }
+
+        .thirteen .product button{
+
+            margin: 1rem 0rem 0rem 6rem;
+           padding: 0.8rem; 
+           font-size: 0.8rem;
+           font-weight: 600;
+           background-color: royalblue;
+           border: none;
+           border-radius: 0.4rem;
+           color: white;
+           
+           }
+           
+ /*----------------------------------------------SECTION FIFTEEN--------------------*/
+
+        .table1{
+            display: flex;
+        }
+
+.fifteen{
+    display: flex;
+    gap: 3rem;
+    padding: 5rem 1rem 15rem 1rem;
+    /* width: 70%; */
+}
+
+.fifteen .rev1 h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#6EC1E4;
+}
+
+.fifteen .rev1 .img1{
+    height: 3.5rem;
+    padding-left: 1rem;
+
+}
+.fifteen .rev1 p{
+    font-size: 0.7rem;
+    padding-left: 0rem;
+    /* width: 20%; */
+
+}
+
+.fifteen .rev1 .img2{
+    height: 10rem;
+    width: 80%;
+    margin-left: 0rem;
+}
+
+.profiles .en1{
+    height: 1.5rem;
+}
+
+
+.profile{
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    background-color:#F1A4A9;
+    border: none;
+    margin-bottom: 1rem;
+    width: 90%;
+    height: 4.5rem;
+    margin-left: 0rem;
+}
+
+.profiles .en2{
+    margin-left: 0rem;
+    height: 1.7rem;
+}  
+
+.profiles{
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.profiles ul{
+    list-style: none;
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+    
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 1200px){
+
+header{
+    display: flex;
+
+}
+
+header .head ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    font-size: 2.7rem;
+    font-weight: 600;
+    gap: 1.5rem;
+    padding: 1rem;
+    color:royalblue;
+    cursor: pointer;
+}
+
+.head ul img{
+    height: 3rem;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 1rem;
+    margin-left: 14rem;
+    margin-top: 2rem;
+    height: 3.3rem;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 3rem;
+    background-color:aliceblue;
+    border: none;
+}
+
+.search img{
+    height: 3rem;
+    padding-left: 15rem;
+    pointer-events: none;
+
+    
+}
+
+.search input{
+    border: none;
+    background-color: aliceblue;
+    outline-style: none;
+    font-size: 1.3rem;
+
+}
+
+.home ul{
+    display: flex;
+    padding-left: 20rem;
+    padding-right: 5rem;
+    list-style: none;
+    gap: 5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+   
+
+}
+
+.home ul li:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    color: #F7B743;
+}
+
+.one {
+    display: flex;
+}
+
+
+.one .left{
+    padding: 2rem;
+    width: 50%;
+}
+
+
+.one .left span{
+
+    font-size: 1.5rem;
+    background-color: #F1A4A9;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    
+
+}
+
+.one .left h3{
+
+    font-size: 2.5rem;
+    color: royalblue;
+    padding-top: 2rem;
+}
+
+.one .left h1{
+
+    font-size: 3.5rem;
+    color: #F7B743;
+    padding-top: 0.5rem;
+}
+
+.one .left p{
+
+    font-size: 1.5rem;
+    padding-top: 0rem;
+}
+
+.one .right:hover{
+
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out
+    
+
+}
+
+.one .left ul{
+
+    display: flex;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    gap: 2rem;
+    list-style: none;
+}
+
+.one .left img{
+
+    height: 4rem;
+}
+
+.one .left h4{
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
+
+
+.one .left button{
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color:#F1A4A9;
+    border: none;
+    color:black;
+    cursor: pointer;
+    font-size: 1rem;
+   
+   
+} 
+
+
+.one .left button:hover{
+    
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out
+} 
+
+.one .right img{
+
+    height: 55vh;
+    width: 60%;
+    margin: 6rem 1rem 1rem 10rem;
+    cursor: pointer;
+    pointer-events: none;
+}
+.one .right{
+    width: 35%;
+    height: 70vh;
+    border: 1px solid black;
+    margin: 5rem 2rem 5rem 10rem;
+    border-radius: 100%;
+    background-color:#F1A4A9;
+    border: none;
+  
+}
+
+/*----------------------------------------------------SECTION TWO------------------------------------------------- */
+
+
+.two{
+   
+    padding: 10rem 4rem 10rem 4rem;
+
+}
+
+
+.two .top{
+
+    display: flex;
+    height: 30vh;
+    background-color:#F1A4A9;
+    gap: 10rem;
+    border-radius: 2rem;
+
+}
+
+.two .top .class1{
+
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding: 4rem 1rem 7rem 6rem;
+    color:royalblue;
+
+}
+
+.two .top .class3{
+    
+
+    border: 1px solid black ;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    background-color: white;
+    border: none;
+
+}
+.top .class3 img{
+   
+padding-top: 0rem;
+padding-bottom: 5rem;
+height: 30vh;
+pointer-events: none;
+
+}
+
+.top .class3:hover{
+
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out
+    
+
+}
+
+
+/*-------------------------------------------------------SECTION THREE---------------------------------------------*/
+.three{
+    display: flex;
+    height: 37vh;
+    background-color:#F1A4A9;
+    margin: 1rem 5rem 2rem 5rem;
+    gap: 20rem;
+    border-radius: 2rem;
+    padding: 0rem;
+
+}
+
+.three .class5{
+    padding-top: 7rem;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: royalblue;
+}
+.three .class4 img{
+    height: 35vh;
+    padding-left: 3rem;
+    pointer-events: none;
+
+
+} 
+
+.three .class4:hover{
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out
+}
+
+
+
+
+/*------------------------------------------------SECTION FOUR---------------------------------------------------- */
+.four{
+    display: flex;
+    padding-left: 2rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+.four .right{
+    width: 38%; 
+    display: flex;
+    background-color: #F1A4A9;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 1rem 1rem 10rem ;
+}
+
+.four .right .width{
+
+    padding: 3.7rem;
+
+}
+
+.four .right .width span{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6EC1E4;
+
+}
+
+.four .right .width h2{
+
+    font-size: 2.3rem;
+    color: royalblue;
+
+}
+
+.four .right .width h1{
+
+font-size: 1.7rem;
+font-weight: 400;
+}
+
+.four .width h3{
+
+    font-size: 1.5rem;
+}
+.four .right .height img{
+
+    padding-left: 6rem;
+    margin-top:1rem ;
+    height: 25vh;
+    pointer-events: none;
+
+}
+
+.four .right .height:hover{
+    transform: scale(1.15);
+    transition: 0.2s ease-in-out
+}
+
+
+/*------------------------------------------SECTION FIVE------------------------------------------*/
+
+.five{
+    padding: 7rem 0rem 7rem 0rem;
+    margin: 5rem;
+    display: flex;
+    background-color:#F1A4A9;
+    border-radius: 2rem;
+    
+    
+
+}
+
+.five .right{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "I1 I2 I2"
+    "I1 I2 I2" 
+    "I3 I3 I5"
+    "I3 I3 I5" 
+    "I6 I6 I4";
+
+    width: 50%;
+    padding-left: 5rem;
+    pointer-events: none;
+}
+
+ .right img{
+    height: 15rem;
+} 
+.right .chair1{
+    grid-area: I1;
+    border: 1px solid black;
+    height: 18rem;
+    width: 80%;
+    padding-left: 4rem;
+    margin-left: 5rem;
+    background-color: white;
+    border-radius: 2rem ;
+}
+.right .chair2{
+    grid-area: I2;
+    border: 1px solid black;
+    height: 18rem;
+    width: 80%; 
+    padding-left: 4rem;
+    margin-left: 5rem;
+    background-color: white;
+    border-radius: 2rem ;
+}
+.right .chair3{
+    grid-area: I3;
+    border: 1px solid black;
+    height: 18rem;
+    width: 80%;
+    padding-left: 4rem;
+    margin-left: 5rem;
+    border-radius: 2rem ;
+    background-color: white;
+
+}
+.right .chair4{
+    grid-area: I4;
+    border: 1px solid black;
+    height: 15rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem ;
+
+
+}
+
+.right .chair5{
+    grid-area: I5;
+    border: 1px solid black;
+    height: 15rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem ;
+}
+
+.right .chair6{
+    grid-area: I6;
+    border: 1px solid black;
+    height: 16rem;
+    margin-left: 2rem;
+    width: 80%;
+    padding-left: 8rem;
+    border-radius: 2rem ;
+    background-color: white;
+}
+
+.left{
+    padding: 0rem 5rem 1rem 15rem;
+
+}
+.left h1{
+    font-size: 3.7rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.left h1 span{
+    color: royalblue;
+}
+
+.left p{
+    font-size: 1.3rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.five .left img{
+    height: 2.5rem;
+}
+
+.left ul{
+    list-style: none;
+    
+}
+.left ul li{
+    display: flex;
+    padding: 2rem 1rem 1rem 2rem;
+    gap: 2rem;
+    
+}
+.left ul li h3{
+    font-size: 2.3rem;
+}
+
+.five .left button{
+
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 3rem 1rem 1rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.five .left button:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out
+}
+
+/*---------------------------------------------SECTION SIX ----------------------------------------------------*/
+
+.six{
+    text-align: center;
+    padding: 5rem 0rem 5rem 0rem;
+}
+.six h1{
+
+    font-size: 4rem;
+    color: royalblue;
+}
+.six h1 span{
+
+    color: orange;
+}
+.six p{
+    font-size: 1.4rem;
+    width: 70%;
+    padding: 1.5rem 1rem 3rem 45rem;
+}
+
+.six ul{
+    display: flex;
+    list-style: none;
+    gap: 7rem;
+    padding-left: 40rem;
+    padding-bottom: 7rem;
+    font-size: 2.3rem;
+}
+
+.six .under{
+    display: flex;
+    gap: 6rem;
+    padding-left: 20rem;
+    padding-bottom: 13rem;
+}
+
+
+.six .under1 .pic1{
+
+    height: 15rem;
+    padding: 2rem;
+    width: 90%;
+    background-color: #F1A4A9;
+    border-radius: 1rem;
+    pointer-events: none;
+}
+.six .under1:hover{
+    transform: scale(1.07);
+    transition: 0.2s ease-in-out
+}
+
+.six .under1  .pic2{
+
+    height: 6rem;
+}
+
+.under1 h2{
+    font-weight: 400;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+.under1 h3{
+     font-size: 2rem;
+     color: royalblue;
+}
+
+.under1 span{
+     color: #20AD96;
+     padding-left: 0.2rem;
+     font-size: 1.2rem;
+     font-weight: 400;
+}
+
+/*---------------------------------------SECTION SEVEN-------------------------------------------------- */
+
+.seven {
+    display: flex;
+    background-color: #F1A4A9;
+    height: 35vh;
+    width: 95%;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    
+}
+.seven .down{
+    width: 50%;
+    padding: 3rem 2rem 3rem 7rem;
+}
+
+.seven .down h1{
+
+    font-size: 3.3rem;
+    padding-bottom: 0rem;
+    color: royalblue;
+
+}
+
+.seven .down h2{
+
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-bottom: 1.4rem;
+}
+
+.seven .down button{
+
+height: 3.5rem;
+width: 13rem;
+font-size: 1.5rem;
+font-weight: 600;
+background-color: aliceblue;
+color: black;
+border: none;
+border-radius: 1rem;
+cursor: pointer;
+
+}
+.seven .down button:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out
+}
+
+
+.seven .up img{
+
+    height: 60vh;
+    width: 70%;
+    margin-left: 18rem;
+    padding-bottom: 15rem;
+    pointer-events: none;
+}
+.seven .up:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out
+}
+
+
+/*------------------------------------------------SECTION EIGHT-------------------------------------*/
+.eight{
+    padding: 5rem 5rem 10rem 5rem;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10rem 3rem 8rem 4rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:#F1A4A9;
+    width: 93%;
+}
+
+.eight h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    color: black;
+} 
+
+.eight h1 span{
+
+    color:royalblue;
+}
+.eight h3{
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+
+.eight .pro1{
+
+    border: 5px solid lightgray;
+    border-radius: 1rem;
+    background-color: white;
+    width: 50%;
+    height: 16vh;
+    
+}
+
+.eight .pros ul li{
+    font-size: 1rem;
+    list-style: none;
+    font-weight: 600;
+
+}
+
+.pros .enb{
+    margin-left: 1rem;
+    height: 6rem;
+    width: 30%;
+    pointer-events: none;
+}  
+.pros{
+    display: flex;
+    gap: 2rem;
+    padding: 0.8rem 2rem 0rem 2rem;
+}
+.pros .ena{
+    height: 5.5rem;
+    pointer-events: none;
+}
+
+
+
+
+.dev1{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 1rem 2rem 2rem;
+    margin-left: 2rem;
+    width: 90%;
+
+}
+
+.dev2{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0rem 1rem 25rem;
+    width: 80%;
+}
+
+/*----------------------------------------------SECTION NINE----------------------------- */
+.nine{
+    padding-bottom: 8rem;
+}
+.nine h1{
+    padding-top: 7rem;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: royalblue;
+}
+
+.nine .light{
+    display: flex;
+    padding: 5rem 0rem 5rem 0rem ;
+     
+}
+
+.nine .light h3{
+    padding: 2rem 0rem 1rem 3rem;
+    font-size: 1.2rem;
+}
+
+.nine .lights img{
+    height: 35vh;
+    width: 80%;
+    margin-left: 3rem;
+    pointer-events: none;
+}
+.nine .lights:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out
+}
+
+.nine .lights{
+    width: 100%;
+    background-color:#F1A4A9;
+    padding-left: 0rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    border-radius: 1.3rem;
+}
+
+.dark{
+    display: flex;
+    gap: 3rem;
+    background-color:#F1A4A9;
+    margin: 4rem;
+    border-radius: 2rem;
+
+}
+
+.dark .sec img{
+
+    height: 20vh;
+    width: 95%;
+    pointer-events: none;
+}
+.dark .sec:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out
+}
+
+
+.dark .sec{
+    background-color: white;
+    margin: 3rem;
+    padding: 0.5rem 1rem 0rem 3rem;
+    border-radius: 1rem;
+}
+
+.dark h2{
+    padding: 6rem 1rem 1rem 3rem;
+    font-size: 2.4rem;
+    color:royalblue;
+
+}
+
+/*----------------------------------------------SECTION TEN */
+
+
+.ten .classA iframe{
+    height: 95vh;
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.ten .classA iframe:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out
+}
+
+.ten .classA{
+    padding: 1rem 1rem 8rem 6rem;
+}
+
+.ten .classB{
+
+    display: flex;
+    gap: 13rem;
+    padding: 2rem;
+    background-color: #F1A4A9;
+}
+
+.classB .furn{
+
+    width: 30%;
+}
+
+.classB .furn ul{
+
+    display: flex;
+    list-style: none;
+    font-size: 2.3rem;
+    font-weight: 600;
+    gap: 1rem;
+    /* padding: 0.5rem; */
+    color: royalblue;
+
+}
+
+.classB .furn img{
+    height: 2.7rem;
+    padding-left: 0rem;
+
+}
+
+.classB .furn p{
+    font-size: 1.3rem;
+}
+
+.classB .text{
+    display: flex;
+    padding-left:2rem;
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+    height: 2.7rem;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 3rem;
+    background-color:aliceblue;
+    border: none;
+
+
+}
+.classB .text input{
+    border: none;
+    background-color: aliceblue;
+    outline-style: none;
+    font-size: 1.3rem;
+
+}
+
+
+.classB .cat h1{
+    font-size: 2.1rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+.classB .cat ul{
+    display: flex;
+    flex-direction: column;
+}
+.classB .cat ul li{
+    padding: 0rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+/*---------------------------------------------------SECTION ELEVEN-----------------------------------------------*/
+ .eleven{ 
+    display: flex;
+    padding-bottom: 7rem;
+} 
+.eleven .left{
+    width: 50%;
+    display: flex;
+    padding-left: 5rem;
+}
+.eleven .left .side1 img{
+    height: 10rem;
+    background-color:cornsilk;
+    padding: 1rem;
+    border-radius: 3rem;
+    pointer-events: none;
+}
+.eleven .left .side1{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 3rem;
+    gap: 4rem;  
+}
+
+.eleven .left .side img{
+    padding: 10rem 1rem 10rem 10rem;
+    height: 90vh;
+    width: 100%;
+    pointer-events: none;
+}
+
+.eleven .right{
+    padding: 5rem 1rem 1rem 10rem;
+    width: 45%;
+    
+}
+.eleven .right h1{
+    font-size: 3.3rem;
+    color: #7E7E7E;
+}
+.eleven .right p{
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+
+.eleven .right del{
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+.eleven .right span{
+    font-size: 2.7rem;
+    padding-left: 1rem;
+    color: royalblue;
+    font-weight: 600;
+    padding-top: 2rem;
+
+}
+.eleven .right ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    padding-top: 7rem;
+    gap: 2rem;
+}
+
+.eleven .right img{
+
+    height: 5rem;
+    pointer-events: none;
+    
+}
+
+.eleven .model ul {
+    list-style: none;
+    padding-top: 4rem;
+}
+
+.eleven .model ul li h2{
+
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding: 3rem 1rem 0rem 10rem;
+    color: #7E7E7E;
+
+}
+.eleven .model ul li h2 span{
+
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 1rem;
+
+}
+
+.eleven .about {
+
+    padding: 4rem 1rem 1rem 13rem;
+    width: 50%;
+}
+
+.eleven .about h1{
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    color: #7E7E7E;
+}
+.eleven .about li {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+/*-----------------------------------------------------------SECTION TWELVE---------------------------------------*/
+
+.table1{
+    display: flex;
+}
+.twelve h1{
+    padding-left: 10rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.twelve .table2{
+    width: 50%;
+}
+
+.twelve .table2 table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 2rem;
+    width: 60%;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .twelve .table3{
+    width: 50%;
+}
+
+.twelve .table3 table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 2rem;
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
+
+
+
+/*----------------------------------------------SECTION THIRTEEN--------------------------------------------------------------*/
+  
+ .thirteen {
+         padding: 10rem 5rem 5rem 5rem; 
+    
+ }
+ .thirteen h1{
+
+    font-size: 3rem;
+    font-weight: 500;
+    
+ }
+
+ .thirteen .products {
+    display: flex;
+    gap: 8rem;
+     padding: 4rem 5rem 1rem 5rem; 
+    
+ }
+ .thirteen .product img{
+
+    height: 25rem;
+    width: 100%;
+    padding: 2rem;
+    background-color:#F1A4A9;
+    border-radius: 2rem;
+    pointer-events: none;
+}
+
+.thirteen .product h2{
+    margin: 2rem 1rem 1rem 3rem;
+    font-weight: 400;
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+.thirteen .product button{
+
+    margin: 1.5rem 1rem 1rem 5rem ;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color:royalblue;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+
+}
+.thirteen .product button:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out
+}
+
+/*----------------------------------------------SECTION FOURTEEN----------------------------------------*/
+.fourteen{
+    text-align: center;
+    padding: 10rem 15rem 10rem 15rem;
+}
+.fourteen table, th, td{
+    
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-left: 9rem;
+    font-size: 1.7rem;
+}
+
+.fourteen table img{
+    height: 5rem;
+}
+
+/*----------------------------------------------SECTION FIFTEEN--------------------*/
+
+.fifteen{
+    display: flex;
+    gap: 5rem;
+    padding: 4rem 10rem 10rem 2rem;
+}
+
+.fifteen .rev1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color:#6EC1E4;
+}
+
+.fifteen .rev1 .img1{
+    height: 8rem;
+    width: 40%;
+    padding-left: 2rem;
+    pointer-events: none;
+
+}
+.fifteen .rev1 p{
+    font-size: 1.7rem;
+    padding-left: 2rem;
+    width: 100%;
+
+
+}
+
+.fifteen .rev1 .img2{
+    height: 30rem;
+    width: 90%;
+    pointer-events: none;
+    /* margin: 2rem; */
+
+}
+
+.profiles .en1{
+    height: 5.5rem;
+    pointer-events: none;
+}
+
+
+.profile{
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color:#F1A4A9;
+    border: none;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 9rem;
+    margin-left: 5rem;
+}
+
+.profiles .en2{
+    margin-left: 1rem;
+    height: 6rem;
+    width: 30%;
+    pointer-events: none;
+}  
+
+.profiles{
+    display: flex;
+    gap: 2rem;
+    padding: 0.8rem 2rem 0rem 2rem;
+}
+
+.profiles ul{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.last button{
+    padding: 2rem 10rem 2rem 10rem;
+    margin: 0rem 0rem 1rem 6rem;
+    border-radius: 2rem;
+    background-color:#F7B743;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 3rem;
+   
+} 
+
+}

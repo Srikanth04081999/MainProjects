@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.part1{
+    
+    height: 90vh;
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 25%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right{
+    display: flex;
+    padding-left: 5rem; 
+    padding-top: 4rem;
+}
+.right img{
+    height: 2rem;
+    margin-bottom: 6rem;
+
+}
+.right ul{
+    list-style: none;
+    
+}
+
+.right span{
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+    
+}
+/* ---------------------------------------------------------------------------- */
+.left{
+    padding-top: 4rem;
+    padding-right: 6rem;
+}
+ 
+.left ul{
+    display: flex;
+    list-style: none;
+}
+.left ul li{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.section{
+    display: flex;
+    
+}
+
+.light{
+    padding-left: 4rem;
+    justify-content: flex-end;
+    width: 40%;
+    
+}
+.light h1{
+    font-size: 6rem;
+    font-weight: 500;
+}
+.light img{
+    height: 2rem;
+}
+ 
+.light ul {
+    padding-top: 1rem;
+    list-style: none;
+}
+.light ul li{
+    margin-top: 1.5rem;
+}
+
+.light span{
+
+    margin-left: 0.7rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+/* --------------------------------------------- */
+
+.dark{
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding-left: 10rem;
+
+    
+}
+
+.dark img {
+    height: 50vh;
+   
+}
+
+.dark span{
+    font-size: 2.7rem;
+    writing-mode: vertical-lr;
+    padding-left: 13rem;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.part2 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.part2 ul li{
+    font-size: 4rem;
+    margin-left: 2rem;
+
+
+}
+.part2 span{
+    font-size: 3rem;
+}
+
+.part2 img{
+    height: 3rem;
+    margin-right: 2rem;
+}
+

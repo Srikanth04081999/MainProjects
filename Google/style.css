@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:ital,wght@0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header ul{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+padding: 1rem;
+}
+header ul li{
+    margin-right: 1rem;
+    
+}
+
+header img{
+
+    height: 1.2rem;
+}
+
+/* ------------------------------------- */
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     margin-top: 7%; 
+
+}
+
+main img{
+
+    height: 7rem;
+    align-items: center;
+    pointer-events: none;
+}
+
+main .search {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 0.7rem;
+    border-radius: 30px;
+    margin-top: 1.5rem;  
+
+    
+
+}
+
+.search img{
+    height: 1.5rem;
+     
+
+}
+
+.search input{
+    width: 90%;
+    border: none;
+    margin-left: 0.3rem;
+    outline-style: none; 
+    font-size: 1.1rem;
+    font-weight: 100;
+    
+
+}
+
+.buttons button{
+
+    padding: 0.7rem;
+    border: none;
+     border-radius: 7px ;
+     margin-top: 2rem;
+     margin-bottom: 0.5rem;
+}
+
+.good span{
+
+    color: blue;
+
+}
+.good{
+    margin-bottom: 16rem;
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    padding: 0.3rem;
+}
+
+footer p{
+    padding: 0.4rem;
+}
+
+footer ul{
+
+    list-style: none;
+    display: flex;
+    
+}
+
+footer ul li{
+    padding: 0.3rem;
+    color: darkgray;
+}
+
+.buttom{
+
+    display: flex;
+    justify-content: space-between ;
+    
+}
+

@@ -1,0 +1,920 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* -----------------------------------------------------HEADER--------------------------------------------------- */
+header{
+
+    padding: 0.9rem 0rem 0.5rem 0rem; 
+    display: flex;
+    gap: 0.2rem;
+    color: orange;
+}
+header  img{
+
+    height: 1.5rem;
+}
+
+header h1{
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* -------------------------------------------------------SECTION ONE----------------------------------------------*/
+
+
+.one .left{
+    padding: 0.9rem 1.7rem 0.3rem 0.4rem; 
+}
+.one .left h1{
+    
+    font-size: 1rem;
+    font-weight: 600;
+    color: orange;
+}
+
+.one .left h2{
+
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding-top: 0.2rem;
+}
+
+.one .left h3{
+
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    color: orange;
+
+}
+
+.one .time ul {
+
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.one .left .time ul li{
+
+    border: 1px solid lightslategray;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    padding: 0.5rem;
+    color: orange;
+    text-align: center;
+
+}
+
+.one{
+    
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+
+.one .right .front{
+    
+    position: absolute;
+    right: 25%;
+    top: 70%;
+    height: 35vh; 
+    width: auto;
+    border: 6px solid white;
+    border-radius: 2rem;
+    
+
+}
+
+.one .right .back{
+    position: absolute;
+    bottom: -55%;  
+    right: 10%;
+    width: 100%; 
+    height: 70vh;
+    z-index: -1;
+    -ms-transform: rotate(90deg); 
+    transform: rotate(90deg); 
+
+}  
+
+
+
+
+
+ /* --------------------------------------------SECTION TWO -------------------------------------------------------------------*/
+    
+ .two {
+    
+    padding: 16rem 0.5rem 1rem 0.5rem;
+    position: relative;
+
+}
+
+.two h1{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+    color: orange;
+}
+
+.two h3{
+    
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.two .box {
+    
+    padding: 2rem;
+    
+
+}
+
+
+.two .box img{
+    
+    height: 5vh;
+
+}
+
+.two .box ul{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 3rem;
+
+}
+
+.two .box ul li{
+    
+    border: 1px solid lightslategray;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    padding: 2rem;
+    color: orange;
+    text-align: center;
+    font-size: 1rem;
+    
+ }
+
+ .bg3{
+    
+    width: 100%;
+    height: 100vh;
+   
+    
+ }
+/* --------------------------------------------SECTION THREE--------------------------------------------------- */
+    
+.three{
+    
+    text-align: center;
+    padding-bottom: 2rem;
+
+ }
+ .three h1{
+    
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    color: orange;
+
+ }
+
+.three .box2 img{
+    
+        height: 15vh;
+    
+     }
+
+     .three .box2 ul{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 3rem;
+     }
+
+     .three .box2 ul li{
+    
+        border: 1px solid lightslategray;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin: 1.5rem;
+        text-align: center;
+        font-size: 0.7rem;
+       
+     }
+
+     .three .box2 ul li button{
+    
+        padding: 5px;
+        font-weight: 500;
+        font-size: 0.5rem;
+        margin-left: 3px;
+        border-radius: 12px;
+        background-color: orange;
+        border: none;
+        color: white;
+        
+     }
+    
+    
+/*------------------------SECTION FOUR-------------- */
+    
+.four1{
+    
+    padding: 1rem 1rem 3rem 1rem;
+        
+ }
+ .four h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: orange;
+
+ }
+
+ .alex ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 2rem 1rem 2rem 2rem ;
+ }
+
+ .alex .img1{
+    height: 2rem;
+ }
+ .alex h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+ }
+
+
+ .alex .img2{
+    height: 2rem;
+ }
+ .four .grid-container img{
+    
+    height: 5rem;
+    border-radius: 1rem;
+    
+}
+ .four .alex{
+    border: 1px solid black;
+    padding: 2rem 0rem 6rem 1rem ;
+    margin: 3rem 2rem 1rem 0rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    border: none;
+}
+
+.four .grid-container{
+    display: grid;
+     grid-template-columns: 10rem 10rem;
+     row-gap: 2rem;
+
+ } 
+
+/*-------------------------SECTION FIVE------------- */
+    
+.five{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.five .class{
+
+    display: flex;
+    border: 1px solid black;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    background-color:aliceblue ;
+    border-radius: 1rem;
+    border: none;
+    
+    
+}
+
+.five .class .left{
+padding: 0.6rem;
+
+}
+
+.five .class .left h1{
+
+    font-size: 1rem;
+    color: orange;
+}
+
+.five .class .left span{
+
+    font-size: 0.6rem;
+}
+
+.five .class .right img{
+
+    height: 13vh;
+
+}
+
+.five .class .right{
+
+padding-top: 2rem;
+
+}
+
+/*-------------------------------------------SECTION SIX--------------------------------------------------------*/
+.six{
+    
+    background-color: aliceblue;
+    padding: 2rem 0rem 17rem 1rem;
+
+}
+.content1{
+
+    width: 100%;
+
+
+}
+
+.content1 h3{
+
+    font-size: 0.7rem;
+    font-weight: 500;
+
+}
+
+.content1 img{
+    height: 2rem;
+}
+
+.content1 ul{
+    display: flex;
+    list-style: none;
+    padding: 0.6rem;
+    gap: 1rem;
+}
+
+
+.content2{
+
+    width: 100%;
+    padding-top: 0.5rem;
+
+}
+
+.content2 h1{
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: orange;
+}
+
+.content2 ul{
+
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 0.4rem;
+}
+
+.content2 ul li{
+    font-size: 0.8rem;
+}
+
+/* .content3{
+    padding: 1.5rem 1rem 1rem 1rem;
+} */
+.content3 h1{
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: orange;
+}
+
+.content3 span{
+
+    font-size: 0.7rem;
+
+}
+
+.content3 input{
+
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 13px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    outline-style: none;
+
+}
+
+.content3 button{
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    font-size: 0.7rem;
+    /* font-weight: 550; */
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+
+@media (min-width: 720px){
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+
+   
+    header{
+
+        padding: 0.5rem 0.5rem 3rem 0.5rem; 
+        display: flex;
+        gap: 1rem;
+        color: orange;
+    }
+    header  img{
+    
+        height: 4rem;
+    }
+    
+    header h1{
+    
+        font-size: 3rem;
+    }
+    
+    .one{
+    
+        
+        display: grid;
+        grid-template-columns: 50% auto;
+        position: relative;
+    }
+    .one .left{
+        padding: 3rem 2rem 4rem 2.5rem;
+    }
+    .one .left h1{
+    
+        font-size: 3rem;
+        font-weight: 510;
+        color: orange;
+    }
+    
+    .one .left h2{
+    
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .one .left h3{
+    
+        font-size: 2rem;
+        font-weight: 600;
+        padding-top: 2rem;
+        color: orange;
+    
+    }
+    
+    .one .time ul {
+    
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+        font-size: 1.7rem;
+        font-weight: 600;
+        justify-content: center;
+        width: 80%;
+        padding-top: 2rem;
+        padding-bottom: rem;
+    }
+    
+    .one .left .time ul li{
+    
+        border: 1px solid lightslategray;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 7px;
+        padding: 0.7rem;
+        color: orange;
+        text-align: center;
+    
+    }
+    
+    
+    
+    
+    .one .right .front{
+    
+        width: auto;
+        position: absolute;
+        top:17%;
+        right: 15%;
+        height: 70vh;
+        width: auto;
+        border: 15px solid white;
+        border-radius: 4rem;
+    
+    }
+    
+    .one .right .back{
+        position: absolute;
+        width: 100%; 
+        height: 70vh;
+        z-index: -1;
+        top: -47%;
+        left: 33%;
+
+    }  
+    
+    
+    /* --------------------------------------------SECTION TWO -------------------------------------------------------------------*/
+    
+    .two {
+    
+        text-align: center;
+        padding-bottom: 3rem;
+        padding-top: 10rem;
+    
+    }
+    
+    .two h1{
+        font-size: 3.5rem;
+        padding-bottom: 2rem;
+        color: orange;
+    }
+    
+    .two h3{
+    
+        font-size: 2.4rem;
+        font-weight: 200;
+    }
+    
+    .two .box {
+    
+        padding-top: 8rem;
+        
+    
+    }
+    
+    .two .box img{
+    
+        width: 100%;
+        height: 15vh;
+    
+    }
+    
+    .two .box ul{
+    
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 7rem;
+    
+    }
+    
+    .two .box ul li{
+    
+        border: 1px solid lightslategray;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 7px;
+        padding: 2rem;
+        color: orange;
+        text-align: center;
+        font-size: 2rem;
+        
+     }
+    
+     .bg3{
+    
+        width: 50%;
+        height: 50vh;
+     }
+    
+     /* --------------------------------------------SECTION THREE--------------------------------------------------- */
+    
+     .three{
+    
+        text-align: center;
+        padding-bottom: 8rem;
+    
+     }
+    
+     .three h1{
+    
+        font-size: 4rem;
+        font-weight: 500;
+        padding-bottom: 7rem;
+        padding-top: 5rem;
+        color: orange;
+    
+     }
+    
+     .three .box2 img{
+    
+        width: 100%;
+        height: 33vh;
+    
+     }
+    
+     .three .box2 ul{
+    
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        list-style: none;
+        padding-bottom: 3rem;
+     }
+    
+     .three .box2 ul li{
+    
+        border: 1px solid lightslategray;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 2rem;
+        padding: 1.5rem;
+        text-align: center;
+        font-size: 1.6rem;
+       
+     }
+    
+     .three .box2 ul li button{
+    
+        padding: 12px;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-left: 8px;
+        border-radius: 12px;
+        background-color: orange;
+        border: none;
+        color: white;
+        
+    
+     }
+    
+     /*------------------------SECTION FOUR-------------- */
+    
+     .four1{
+    
+        display: flex;
+        width: 80%;
+        gap: 4rem;
+        padding: 2rem 1rem 3rem 8rem;
+    
+     }
+    
+     .four h1{
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 500;
+        color: orange;
+    
+     }
+    
+     .alex{
+        width: 36%;
+     }
+    
+     .alex ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        padding: 0rem 1rem 8rem 3rem ;
+     }
+     .alex .img1{
+        height: 4rem;
+     }
+    
+     .alex h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+     }
+    
+    
+     .alex .img2{
+        height: 2rem;
+        margin-top: 1rem;
+     }
+    
+    
+        .four .alex{
+            border: 1px solid black;
+            padding: 5rem 7rem 13rem 1rem;
+            margin: 7rem 1rem 1rem 1rem;
+            background-color: aliceblue;
+            border-radius: 5rem;
+            border: none;
+        }
+     .four .grid-container{
+        display: grid;
+         grid-template-columns: 17rem 17rem;
+         row-gap: 3rem;
+    
+     } 
+     .four .grid-container img{
+    
+        height: 9rem;
+        width: 80%;
+        border-radius: 1rem;
+        
+    }
+    
+      
+/*-------------------------SECTION FIVE------------- */
+    
+    .five{
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+    }
+    
+    .five .class{
+    
+        display: flex;
+        border: 1px solid black;
+        margin-left: 20rem;
+        margin-right: 25rem;
+        background-color:aliceblue ;
+        border-radius: 35px;
+        border: none;
+        
+        
+    }
+    
+    .five .class .left{
+    
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 7rem;
+    width: 70%;
+    
+    }
+    
+    .five .class .left h1{
+    
+        font-size: 3rem;
+        color: orange;
+    }
+    
+    .five .class .left span{
+    
+        font-size: 1.4rem;
+    }
+    
+    .five .class .right img{
+    
+        width: 100%;
+        height: 35vh;
+    
+    }
+    
+    .five .class .right{
+    
+    padding-left: 10rem;
+    padding-top: 3rem;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*-------------------------------------------SECTION SIX--------------------------------------------------------*/
+    
+    
+    .six{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: aliceblue;
+        padding: 3rem 1rem 1rem 1rem;
+
+    }
+    .content1{
+    
+        width: 100%;
+        padding-left: 5rem;
+    
+    }
+    
+    .content1 h3{
+    
+        font-size: 1.4rem;
+        font-weight: 400;
+    
+    }
+    
+    .content1 img{
+        height: 4rem;
+    }
+    
+    .content1 ul{
+        display: flex;
+        list-style: none;
+        padding: 3rem;
+        gap: 1rem;
+    }
+    
+    
+    .content2{
+    
+        width: 100%;
+        padding-left: 8rem;
+        padding-top: 0.5rem;
+    
+    }
+    
+    .content2 h1{
+    
+        font-size: 2.7rem;
+        font-weight: 500;
+        color: orange;
+    }
+    
+    .content2 ul{
+    
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    
+    .content2 ul li{
+        font-size: 1.6rem;
+    }
+    
+    .content3 h1{
+    
+        font-size: 2.7rem;
+        font-weight: 500;
+        color: orange;
+        padding-bottom: 2rem;
+    }
+    
+    .content3 span{
+    
+        font-size: 1.4rem;
+    
+    }
+    
+    .content3 input{
+    
+        padding: 1.3rem 10rem;
+        background-color: antiquewhite;
+        border: none;
+        border-radius: 13px;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        outline-style: none;
+    
+    }
+    
+    .content3 button{
+        padding: 0.7rem 3rem;
+        font-size: 1.4rem;
+        font-weight: 550;
+        border: none;
+        border-radius: 15px;
+        background-color: orange;
+        color: white;
+    }
+     
+}
+
